@@ -1,4 +1,4 @@
-package ru.netology.Reset;
+package ru.netology.reset.exception;
 
 public class InvalidCredentials extends RuntimeException {
     public InvalidCredentials(String msg) {

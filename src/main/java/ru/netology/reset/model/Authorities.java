@@ -1,4 +1,4 @@
-package ru.netology.Reset.model;
+package ru.netology.reset.model;
 
 public enum Authorities {
     READ, WRITE, DELETE

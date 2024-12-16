@@ -1,4 +1,4 @@
-package ru.netology.Reset;
+package ru.netology.reset;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
