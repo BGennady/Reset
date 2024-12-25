@@ -1,5 +1,6 @@
 package ru.netology.reset.service;
 
+import org.springframework.stereotype.Service;
 import ru.netology.reset.exception.InvalidCredentials;
 import ru.netology.reset.exception.UnauthorizedUser;
 import ru.netology.reset.model.Authorities;
@@ -7,6 +8,7 @@ import ru.netology.reset.repository.UserRepository;
 
 import java.util.List;
 
+@Service
 public class AuthorizationService {
     UserRepository userRepository;
 
